@@ -1,0 +1,104 @@
+.container-center{
+    width: 80%;
+}
+/* 轮播图 */
+.main-picture-change{
+    width: 100%;
+
+
+    /* position: absolute; */
+    margin: 0 auto;
+}
+.container-center .main-picture-change img{
+    /* 图片要怎么铺满背景？ */
+    width: 100%;
+
+}
+.container-center .main-picture-change .carousel-item active{
+    position: relative;
+    text-align: center;
+}
+.container-center .main-picture-change .fig1{
+    position: absolute;
+    /* display: block;
+    margin: auto; */
+    left:50%;
+    transform: translate(-50%, -50%);
+    bottom: 0%;
+    /* text-align: center; */
+}
+.container-center .main-picture-change .carousel-item{
+    position: relative;
+    text-align: center;
+}
+.container-center .main-picture-change .fig2{
+    position: absolute;
+    top:30%;
+    text-align: left;
+}
+.container-center .main-picture-change .fig3{
+    position: absolute;
+    bottom:20px;
+    text-align:;
+}
+
+/* 如何使图标居中显示？ */
+.icon-group ul{
+    margin: 0 auto;
+}
+.icon-group ul li {
+    list-style: none;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 30px;
+}
+.row{
+    clear: both;
+    /* margin-top: 50px; */
+}
+/* .row{
+    clear:both;
+    margin-top: 50px;
+} */
+.poster{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    /* color:white; */
+}
+.poster img{
+    width: 100%;
+
+}
+.poster .inside{
+    position: absolute;
+    text-align: left;
+    left:100px;
+    top:30%;
+}
+.poster .inside-text{
+    width: 520px;
+    height:40px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.poster .btn btn-secondary{
+    margin-top: 12px;
+    left:10px;
+}
+.bottom .row bottom ul{
+    list-style: none;
+
+}
+.bottom .row bottom ul p{
+
+}
+
+#fig a{
+    text-decoration: none;
+}
+#fig a:hover{
+    border-bottom: 2.5px solid ;
+    transition: 0.3s;
+}
